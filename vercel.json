@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "GogoAnime",
+  "builds": [{ "src": "api.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/api.js" }]
+}
