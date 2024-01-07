@@ -1,0 +1,6 @@
+{
+  "version": 1.0.0,
+  "name": "gogoanime-api",
+  "builds": [{ "src": "api.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "lib/anime_parser.js " }]
+}
